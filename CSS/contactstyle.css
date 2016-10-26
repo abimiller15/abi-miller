@@ -1,0 +1,43 @@
+#contact{
+	color: white;
+	position: absolute;
+	font-size: 65px;
+	width: 100%;
+	line-height:50px;
+	top: 13%;
+	left: 50%;
+	text-align: center;
+	font-family: "arial", sans-serif;
+	font-weight: bolder;
+	font-style: italic;
+	transform:translate(-50%, -50%);
+/*background: black;
+box-shadow: white;*/
+vertical-align: middle;
+text-shadow: 4px 4px black;
+/*text-decoration: underline;*/
+}
+
+.contact-p {
+	width: 50%;
+	left: 23%;
+	vertical-align: top;
+	margin: 0 auto;
+	padding-top: 75px;
+	font-size: 18px;
+/*	text-align: center;*/
+}
+
+.contact-img{
+	position: relative;
+	width: 30px;
+	vertical-align:middle;
+	left: 43%;
+}
+
+.contact-img1{
+	position: relative;
+	width: 30px;
+	vertical-align: middle;
+	left: 43%;
+}

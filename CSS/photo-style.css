@@ -1,0 +1,63 @@
+#photo{
+	color: white;
+	position: absolute;
+	font-size: 65px;
+	width: 100%;
+	line-height:50px;
+	top: 13%;
+	left: 50%;
+	text-align: center;
+	font-family: "arial", sans-serif;
+	font-weight: bolder;
+	font-style: italic;
+	transform:translate(-50%, -50%);
+/*background: black;
+box-shadow: white;*/
+vertical-align: middle;
+text-shadow: 4px 4px black;
+}
+*{
+	box-sizing: border-box;
+}
+
+#page-wrap{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.row{
+	width: 100%;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.figure{ 
+	border: 2px;
+
+ }
+.figure img{
+	width: 75%;
+
+}
+
+.figure figcaption{ 
+	text-align: center;
+ }
+
+[class^="column-"] {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.column-1 {
+	width: 100%;
+}
+.column-2 {
+	width: 50%;
+}
+.column-3 {
+	width: 33.333333333%;
+}
+.column-4 {
+	width: 25%;
+}

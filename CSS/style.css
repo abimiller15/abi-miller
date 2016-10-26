@@ -1,0 +1,124 @@
+*{
+	box-sizing: border-box;
+	font-family: "arial", sans-serif;
+}
+
+
+#fixed-navbar{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 60px;
+	font-family: "arial", sans-serif;
+	font-weight: bolder;
+	/*background-color:rgba(0, 0, 0, 0.2);*/
+}
+
+#page-wrap{
+	width: 1000px;
+	margin: 0 auto;
+	
+}
+
+#fixed-navbar .centered-container{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+#logo {
+	display: inline-block;
+	width: 15%;
+	line-height: 40px;
+	text-align: center;
+	font-size: 25px;
+	color: black;
+	font-family: "arial", sans-serif;
+	font-style: italic;
+	font-weight: bolder;
+	background-color: white;
+	box-shadow: 8px 8px;
+
+}
+
+#main-nav {
+	display: inline-block;
+	width: 85%;
+	text-align: right;
+	line-height: 60px;
+	font-size: 14px;
+	vertical-align: middle;
+	text-shadow: 1px 1px black;
+}
+
+/*the hyperlinks*/
+
+#main-nav a {
+/*	padding-left:10px;
+	padding-right: 10px;*/
+	padding:10px;
+	text-decoration: none;
+	transition: text-decoration 0.25s ease,
+		opacity .25s ease,
+		font-size .25s ease;
+
+}
+#main-nav a:link{
+	color:white;
+	
+}
+#main-nav a:visited{
+	color: white;
+}
+#main-nav a:hover{
+	opacity: .85;
+	font-size: 13px;
+}
+
+#main-nav a:active{
+	text-decoration: underline;
+	opacity:.8;
+}
+
+#logo a {
+	text-decoration: none;
+	transition: font-size .5s ease;
+}
+#logo a:link{
+	color:black;
+}
+#logo a:visited{
+	color:black;
+}
+#logo a:hover{
+	font-size: 27px;
+}
+#logo a:active{}
+
+/*BANNER*/
+
+#banner{
+width: 110%;
+transform: translate(-5%, -5%);
+height: 30vh;
+background: url(../images/banner.JPG)
+		center 25%/ cover
+		no-repeat;
+position: relative;
+z-index: -1;
+}
+
+.contact-img{
+	position: relative;
+	width: 45px;
+	vertical-align:middle;
+	left: 43%;
+}
+
+.contact-img1{
+	position: relative;
+	width: 30px;
+	vertical-align: middle;
+	left: 43%;
+}

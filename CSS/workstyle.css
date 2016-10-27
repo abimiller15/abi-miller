@@ -21,7 +21,7 @@ text-shadow: 4px 4px black;
 
 
 #work-nav {
-	display: inline-block;
+	position: relative;
 	padding: 125px;
 	font-weight: bolder;
 	vertical-align: top;
@@ -52,6 +52,7 @@ text-shadow: 4px 4px black;
 #work-nav a {
 	padding:10px;
 	border: 1px solid black;
+	text-decoration: none;
 	transition: opacity .25s ease,
 		font-size .25s ease;
 

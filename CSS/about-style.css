@@ -25,7 +25,16 @@ text-shadow: 4px 4px black;
 	margin: 0 auto;
 	padding-top: 75px;
 	font-size: 18px;
+	font-weight: bolder;
 /*	text-align: center;*/
+}
+
+img {
+	width: 15%;
+	left: 50%;
+	position: relative;
+	vertical-align: middle;
+	margin: 10px;
 }
 
 
